@@ -1,1 +1,3 @@
-# codealpha_tasks
+Project Description
+
+This project involves downloading a protein sequence (TP53 Binding Protein 1) from UniProt, performing BLASTp analysis on NCBI to identify homologous sequences, and documenting the results including similarity, identity, and alignment scores. The analysis highlights conserved regions and evolutionary relationships, providing insights into the functional significance of TP53BP1 in Homo sapiens.
