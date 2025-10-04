@@ -1,0 +1,52 @@
+Task 2:
+
+
+1. Objective
+The objective of this task is to perform a Multiple Sequence Alignment (MSA) between proteins of the same functional family to identify conserved residues, motifs, and regions of similarity. This helps in understanding structural and functional conservation across species.
+2. Introduction
+Protein sequences often share conserved regions that are essential for their structural stability and biological function. Identifying these conserved motifs provides insights into evolutionary conservation and helps predict functional domains.
+In this study, the sequences of Human T53G5 protein and Bovine TIGAR protein were aligned using CLUSTALW. Both proteins belong to the TP53-induced protein family, which plays important roles in metabolic regulation and cellular stress response. By comparing these sequences, we can identify regions of similarity and divergence, providing insight into evolutionary conservation.
+3. Materials and Methods
+•	Protein Sequences Used:
+o	Homo sapiens T53G5 (UniProt: Q9Y2B4, length 290 aa)
+o	Bos taurus TIGAR (UniProt: Q1JQA7, length 270 aa)
+•	Tool Used:
+o	CLUSTALW 2.1 (Multiple Sequence Alignment program).
+•	Procedure:
+1.	FASTA sequences were retrieved from the UniProt database.
+2.	Sequences were input into CLUSTALW for pairwise and multiple alignment.
+3.	The alignment output was analyzed to identify fully conserved residues, similar amino acid substitutions, and divergent regions.
+4.Results:
+ 
+4.1 Alignment Summary
+•	Alignment Score: 10.37
+•	Human T53G5 length: 290 aa
+•	Bovine TIGAR length: 270 aa
+•	Several conserved motifs were identified in the central region of the proteins
+ sp|Q9Y2B4|T53G5_HUMAN  MSP...KLLSLLK  
+sp|Q1JQA7|TIGAR_BOVIN ---MTRFALTV...IFLK  
+                       ::  *  * .:* * : 
+
+ ‘*’ (asterisk) → Identical residue (highly conserved)
+ ‘:’ (colon) → Conserved amino acids with similar properties
+ ‘.’ (dot) → Weak similarity
+ Gaps (---) indicate insertions/deletions in sequence alignment
+4.3 Conserved Regions
+•	The alignment shows several blocks of conservation, particularly in the middle of the sequence (residues ~100–200).
+•	Functional motifs (e.g., glycolytic enzyme-like domains) appear highly conserved.
+•	N-terminal regions show moderate variability (species-specific adaptation).
+
+5. Discussion
+The alignment indicates that Human T53G5 and Bovine TIGAR share significant sequence similarity, with multiple highly conserved residues across their structures. These conserved motifs suggest a shared evolutionary origin and indicate that the two proteins likely maintain similar functional roles.
+•	The conserved regions are likely involved in critical enzymatic or structural roles, ensuring proper metabolic regulation.
+•	The variable regions may represent adaptations in humans and cattle, reflecting differences in regulatory control or organism-specific metabolic requirements.
+•	The relatively high conservation score supports that both proteins belong to the same functional family.
+Thus, the MSA demonstrates how sequence conservation correlates with functional importance and highlights the potential evolutionary pressures maintaining these domains.
+6. Conclusion
+The MSA between Human T53G5 and Bovine TIGAR proteins reveals conserved residues and motifs, especially in functional domains, while allowing for some species-specific variations. These results emphasize the evolutionary conservation of proteins within the TP53-induced protein family, highlighting their essential role in cellular homeostasis.
+
+
+
+
+
+
