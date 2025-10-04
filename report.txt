@@ -1,0 +1,57 @@
+
+Objective
+The objective of this experiment is to identify and analyze homologous protein sequences of the TP53-binding protein 1 (53BP1) using BLAST. The goal is to compare its sequence conservation across different species, evaluate similarity and identity percentages, and understand the evolutionary relationships and potential functional conservation of this key DNA damage response protein.
+Introduction
+TP53-binding protein 1 (53BP1) is a crucial mediator in the DNA damage response pathway. It was originally identified as a protein that interacts with the tumor suppressor p53 and is now known to play a central role in maintaining genomic stability. 53BP1 recognizes DNA double-strand breaks and facilitates repair primarily through the non-homologous end joining (NHEJ) pathway. Its function is essential for cell cycle checkpoint activation, chromatin remodeling, and the maintenance of chromosome integrity.
+Analyzing the sequence of TP53BP1 across different organisms provides insights into its evolutionary conservation and functional importance. Highly conserved sequences often indicate critical biological functions preserved through evolution. By using BLAST (Basic Local Alignment Search Tool), homologous proteins can be identified in various species, allowing the assessment of sequence similarity, identity, and alignment significance.
+This study employs protein BLAST (blastp) to identify homologous sequences of TP53-binding protein 1, compare them across species, and interpret their evolutionary and functional conservation.
+3. Materials and Methods
+•	Database used: NCBI non-redundant (nr)
+•	Tool: Protein BLAST (blastp)
+•	Query sequence: Human p53 protein (UniProt Accession: P04637)
+•	Input format: FASTA
+•	Parameters: Default settings (BLOSUM62, Expect threshold = 10)
+4. Results
+ 
+Alignment Summary
+The top hit (chimpanzee TP53BP1) showed:
+•	Query coverage: 100%
+•	Percent identity: 100 to 99.94% for different sequences
+•	E-value: 0.0 (indicating a perfect statistical match)
+•	Max score: 4017
+The Description column tells us:
+Which protein and from which organism matches our query, and what that match represents (full protein, isoform, or predicted sequence).
+ 
+The graphic summary shows multiple homologous sequences aligning across the full length of the human TP53BP1 protein. Most hits appear as long red bars, indicating very high similarity (bit scores close to the maximum) and full-length conservation across species such as chimpanzee, gorilla, and macaque.
+ 
+Top Section
+•	Title: TP53-binding protein 1 isoform 3 [Homo sapiens]
+→ This is the protein your query matched against.
+•	Accession: NP_005648.4
+→ This is the RefSeq identifier for that isoform.
+•	Length: 1972 amino acids
+→ The protein has 1972 residues.
+•	Number of Matches: 1
+→ Only one strong hit was found that matches your sequence.
+
+ Score and Identity
+•	Score = 4017 bits (extremely high, meaning excellent alignment).
+•	Expect (E-value) = 0.0
+→ A perfect match, not random.
+•	Identities = 1972/1972 (100%)
+→ Every amino acid is identical between your query and the subject sequence.
+•	Positives = 1972/1972 (100%)
+→ All amino acids are functionally identical (perfect conservation).
+•	Gaps = 0/1972 (0%)
+→ No missing regions, full-length alignment.
+This means your input sequence is exactly the same as the reference TP53BP1 isoform 3 sequences from humans.
+This alignment tells us that this sequence is exactly the same as the human TP53BP1 isoform 3 reference sequence — with complete conservation across all amino acids.
+ 
+Number of sequencing options available for this sequence.
+ 
+o	It tells us which organism the matched protein comes from.
+o	Here we have homologs from multiple species, the taxonomy column helps us compare conservation across species (e.g., Homo sapiens, Mus musculus, Danio rerio, etc.).
+•	In this case, since it’s 100% identical to Homo sapiens, the taxonomy confirms that the           query sequence is a human protein with no variation.
+Conclusion
+The BLAST analysis of TP53-binding protein 1 isoform 3 (Homo sapiens) confirmed a perfect alignment with the reference sequence available in the NCBI database. The query sequence showed 100% identity, 100% positives, and no gaps across all 1972 amino acids, with an E-value of 0.0, indicating a highly significant match. This demonstrates that the input sequence corresponds exactly to the canonical human TP53BP1 protein.
+The results highlight the reliability of BLAST in identifying homologous sequences and verifying protein identity. In this case, the taxonomy confirms that the protein originates from Homo sapiens, with some variations observed. This analysis also emphasizes the evolutionary and functional conservation of TP53BP1, which plays a critical role in DNA damage response and genomic stability.
